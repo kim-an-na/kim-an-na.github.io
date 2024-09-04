@@ -8,9 +8,9 @@ children:
   - title: publications
     permalink: /publications/
   - title: divider
-  - title: projects
-    permalink: /projects/
+  - title: research
+    permalink: /research/
   - title: divider
-  - title: blog
-    permalink: /blog/
+  - title: cv
+    permalink: /cv/
 ---
