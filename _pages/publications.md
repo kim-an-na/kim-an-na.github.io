@@ -1,8 +1,8 @@
 ---
 layout: page
-permalink: /publications/
-title: publications
-description: publications by categories in reversed chronological order. 
+permalink: /research/
+title: research
+description: publications by categories in reversed chronological order.
 nav: true
 nav_order: 2
 ---
@@ -15,6 +15,16 @@ nav_order: 2
 
 <div class="publications">
 
-{% bibliography %}
+<h1>publications</h1>
+
+{% bibliography --file papers.bib %}
+
+<h1>PhD thesis</h1>
+
+{% bibliography --file dissertation.bib %}
+
+<h1>working papers</h1>
+
+{% bibliography --file workingpapers.bib %}
 
 </div>
